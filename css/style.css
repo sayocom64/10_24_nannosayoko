@@ -1,0 +1,39 @@
+/* 共通のcss */
+div {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* 未ログイン会員 */
+header nav.bg_green{
+ background-color: #A7E8BD !important;
+}
+
+/* 管理者 */
+header nav.bg_yellow{
+ background-color: #F9FBB2 !important;
+}
+
+/* user_index.php(ユーザー登録ページ) */
+.nonDisp{
+    display:none;
+}
+
+/* ログイン中の名前表示 */
+p.lginStatus{
+    color: rgb(62, 158, 221);
+    margin: auto;
+}
+span{
+    font-weight: bold;
+}
+
+/* ajax_list.html(お気に入りの一覧ページ) */
+nav{
+    width: 100%;
+    height: 40px;
+}
+/* ul#echo{
+    width: 100%;
+    display: -webkit-box;
+} */
